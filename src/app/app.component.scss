@@ -72,10 +72,11 @@ header {
 #services {
   background: url("../assets/bg-2.svg") no-repeat;
   background-size: cover;
-  background-position: -1px 1px;
+  background-position: -2px 1px;
   @media (min-width: 768px) {
     background: url("../assets/bg-1.svg") no-repeat;
     background-size: cover;
+    background-position: -2px 1px;
   }
 }
 #contact {
