@@ -70,15 +70,8 @@ header {
   }
 }
 #services {
-  background: url("../assets/bg-2.svg") no-repeat;
-  background-size: cover;
-  background-position: -2px 1px;
-  background-size: calc(100% + 2px);
-  @media (min-width: 768px) {
-    background: url("../assets/bg-1.svg") no-repeat;
-    background-size: cover;
-    background-position: -2px 1px;
-  }
+  background: url("../assets/bg-1.svg") no-repeat;
+  background-size: contain;
 }
 #contact {
   form {
